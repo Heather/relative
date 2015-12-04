@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
       printf("SetCurrentDirectory failed (%d)\n", GetLastError());
       return -1;
     }
-    TCHAR buffer[MAX_PATH]=TEXT(""); 
+    TCHAR buffer[MAX_PATH]=TEXT("");
     TCHAR** lppPart={NULL};
     auto retval = GetFullPathName(argv[2],
                   MAX_PATH,

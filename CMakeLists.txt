@@ -14,7 +14,7 @@ SET(PROJECT_NAME relative)
 project(${PROJECT_NAME} CXX)
 SET(RHEADERS
 )
-set(RSRC_FILES 
+set(RSRC_FILES
     relative.cpp
 )
 add_executable(${PROJECT_NAME} ${RSRC_FILES} ${RHEADERS})
@@ -24,7 +24,7 @@ SET(APROJECT_NAME absolute)
 project(${APROJECT_NAME} CXX)
 SET(AHEADERS
 )
-set(ASRC_FILES 
+set(ASRC_FILES
     absolute.cpp
 )
 add_executable(${APROJECT_NAME} ${ASRC_FILES} ${AHEADERS})
